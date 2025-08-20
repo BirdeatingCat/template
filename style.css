@@ -11,6 +11,10 @@ nav#Topnav{
     background-color: #ccff99;
     padding: 10px;
     height: 60px;
+    @media screen and (max-width: 980px){
+        width: 980px;
+        height: 120px;
+    }
 }
 ul#topNavUrl li{
     list-style: none;
@@ -146,6 +150,9 @@ footer {
 }
 #left-sidebar-f{
     width: 1000px;
+    @media screen and (max-width: 980px){
+        width: 1200px;
+    }
     padding: 20px;
     margin-left: 30px;
 }
